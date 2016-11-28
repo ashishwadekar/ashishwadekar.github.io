@@ -3,13 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
+**Hello there!**<br><br>
+I am **Ashish Wadekar**.<br><br> I am a passionate **Rubyist** and working as **Ruby on Rails developer** at The NextWave Technologies and actively working on flagship project called ProfitBooks. You can have a look at it [here](http://www.profitbooks.net)
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Having a formal education as Production Engineer and leaving behind a cosy managerial role in a MNC to dive into the exciting world of development, this blog will share all the things I have learned on the way while traversing the ocean of code.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+I am also into a little bit of iPhoneography and share the photos on instagram. Check them out [here](http://www.instagram.com/ashishwadekar)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Do drop me an email on : **ashishawadekar [at] gmail [dot] com** and let's begin a conversation!
