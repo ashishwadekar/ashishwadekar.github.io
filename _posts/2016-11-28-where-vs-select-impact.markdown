@@ -2,7 +2,7 @@
 layout: post
 title:  "where vs select impact in Rails on memory & performance"
 date:   2016-11-28 11:34:33 +0530
-categories: rails memory activerecord objspace benchmark
+categories: blog
 ---
 I was writing a seed file where in it was needed to update details pertaining to service_id in a table. My current task needed to look for 10000+ services and update the records.
 
@@ -87,11 +87,11 @@ Now on to the analysis which should be inline with our earlier observation realt
 
 {% highlight ruby %}
 Benchmark.measure { Service.all }
-**Service Load (206.2ms)** SELECT `services`.* FROM `services`
+Service Load (206.2ms) SELECT `services`.* FROM `services`
 #=> 0.490000  0.040000  0.530000  ( 0.552428 )
 
 Benchmark.measure { Service.select(:id).all }
-**Service Load (5.7ms)** SELECT id FROM `services`
+Service Load (5.7ms) SELECT id FROM `services`
 #=> 0.060000  0.000000  0.060000  ( 0.063805 )
 
 Benchmark.measure { Service.where(:id => 1..11000) }
