@@ -3,6 +3,7 @@ layout: post
 title:  "where vs select impact in Rails on memory & performance"
 date:   2016-11-28 11:34:33 +0530
 categories: blog
+comments: true
 ---
 I was writing a seed file where in it was needed to update details pertaining to service_id in a table. My current task needed to look for 10000+ services and update the records.
 
