@@ -6,7 +6,7 @@ categories: blog
 comments: true
 ---
 
-While checking out some Rails magic happennig or even while rollercoasting into a very large codebase, it would be really super duper helpful if there could be something that would help to find where the method was defined. *(Ofcourse, there are these cool text editors that help to find this but they generally dont't reach inside gems)*
+While checking out some Rails magic happening or even while rollercoasting into a very large codebase, it would be really super duper helpful if there could be something that would help to find where the method was defined. *(Ofcourse, there are these cool text editors that help to find this but they generally don't reach inside gems)*
 
 `source_location` is the method that comes to our rescue!
 
